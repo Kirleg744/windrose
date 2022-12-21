@@ -1,0 +1,97 @@
+@import "vars";
+@import "libs";
+@import "fonts";
+
+
+
+body{
+    color: #3A261D;
+}
+
+
+
+
+.shares{
+    &__container{
+        width: 1110px;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__item-flag{
+        position: absolute;
+        bottom: 0;top: 17px;right: 0;
+    }
+    &__item{
+        position: relative;
+    }
+    &__item-text{
+        position: absolute;
+        top: 27px; right: 20px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 17px;
+    }
+    &__item-descr{
+        color: white;
+        font-size: 14px;
+        width: 350px;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin: 100px 0 45px 0;
+        h2{
+            color: #fff;
+            font-weight: 600;
+            font-size: 40px;
+            margin: 0 18px 0 18px;
+        }
+    }
+}
+
+
+.about{
+    margin-top: 100px;
+    &__title{
+        margin-bottom: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-weight: 600;
+            font-size: 40px;
+            margin: 0 25px 0 25px;
+        }
+    }
+    &__slide{
+        display: flex;
+        justify-content: center;
+        &-text{
+            margin-left: 56px;
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: 500;
+            max-width: 607px;
+            text-align: left;
+        }
+        &-img{
+        }
+
+    }
+
+}
+.swiper-wrapper{
+
+}
+.swiper-container{
+
+}
+
+
+@import "media";
